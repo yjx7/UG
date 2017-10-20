@@ -1,0 +1,46 @@
+create table user(
+	userId int auto_increment primary key,--用户id,主键
+	userName varchar(20) NOT NULL,--用户名
+	password varchar(20) NOT NULL,--密码
+	passwordSalt varchar(20),--密码盐
+	phoneNumber varchar(13),--手机号码
+	email varchar(30),--邮箱
+	sex int,--性别
+	birthData Date,--出生日期
+	introduction varchar(140),--个性签名
+	orderId varchar(20),--订单id号
+	userState int DEFAULT 1--用户状态,用于管理员操作01
+)ENGINE=innodb AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8
+,
+create table goodsorder(
+	orderId int auto_increment primary key,--订单id号
+	contactsId int NOT NULL,--历史联系人的用户id
+	goodsId int NOT NULL--商品id
+
+)ENGINE=innodb AUTO_INCREMENT=100000 DEFAULT CHARSET=utf8 
+
+
+
+
+
+
+----------------------------
+create table user(
+	userId int auto_increment primary key,
+	userName varchar(20) NOT NULL,
+	password varchar(20) NOT NULL,
+	passwordSalt varchar(20),
+	phoneNumber varchar(13),
+	email varchar(30),
+	sex int,
+	birthData Date,
+	introduction varchar(140),
+	orderId varchar(20),
+	userState int DEFAULT 1
+)ENGINE=innodb AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8
+,
+create table goodsorder(
+	orderId int auto_increment primary key,
+	contactsId int NOT NULL,
+	goodsId int NOT NULL
+)ENGINE=innodb AUTO_INCREMENT=10000 DEFAULT CHARSET=utf8 
