@@ -1,0 +1,286 @@
+2017-10-20 22:42:26,297 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-webapp/maven-metadata.xml
+2017-10-20 22:42:26,419 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-webapp/maven-metadata.xml
+2017-10-20 22:43:48,216 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\挑战杯\优逛\UG\ug\pom.xml
+2017-10-20 22:43:55,305 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2017-10-20 22:43:55,632 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 22:43:57,048 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ug/src/main/java
+2017-10-20 22:43:57,049 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ug/src/main/resources
+2017-10-20 22:43:57,050 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ug/src/test/java
+2017-10-20 22:43:57,055 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 22:43:57,728 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2017-10-20 22:43:58,498 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 22:43:58,703 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:43:58,722 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 22:43:58,724 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:43:58,728 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 22:43:59,971 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 22:44:01,035 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:44:01,055 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 22:44:01,057 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:44:01,062 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 22:53:24,322 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 22:53:24,773 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.pom
+2017-10-20 22:53:25,299 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.pom
+2017-10-20 22:53:25,787 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.pom
+2017-10-20 22:53:25,937 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,139 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,299 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,450 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,592 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,739 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,871 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.pom
+2017-10-20 22:53:26,995 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.pom
+2017-10-20 22:53:27,146 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.pom
+2017-10-20 22:53:27,247 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-oxm/4.0.2.RELEASE/spring-oxm-4.0.2.RELEASE.pom
+2017-10-20 22:53:27,471 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-oxm/4.0.2.RELEASE/spring-oxm-4.0.2.RELEASE.pom
+2017-10-20 22:53:27,616 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.pom
+2017-10-20 22:53:28,132 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.pom
+2017-10-20 22:53:28,381 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.pom
+2017-10-20 22:53:28,542 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.pom
+2017-10-20 22:53:28,663 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.pom
+2017-10-20 22:53:28,852 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.pom
+2017-10-20 22:53:28,962 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context-support/4.0.2.RELEASE/spring-context-support-4.0.2.RELEASE.pom
+2017-10-20 22:53:29,126 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context-support/4.0.2.RELEASE/spring-context-support-4.0.2.RELEASE.pom
+2017-10-20 22:53:29,239 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-test/4.0.2.RELEASE/spring-test-4.0.2.RELEASE.pom
+2017-10-20 22:53:29,400 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-test/4.0.2.RELEASE/spring-test-4.0.2.RELEASE.pom
+2017-10-20 22:53:29,503 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.pom
+2017-10-20 22:53:29,667 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.pom
+2017-10-20 22:53:30,163 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/javax/javaee-api/7.0/javaee-api-7.0.pom
+2017-10-20 22:53:30,344 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/javax/javaee-api/7.0/javaee-api-7.0.pom
+2017-10-20 22:53:30,522 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom
+2017-10-20 22:53:30,662 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.pom
+2017-10-20 22:53:31,344 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/sun/mail/all/1.5.0/all-1.5.0.pom
+2017-10-20 22:53:31,531 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/sun/mail/all/1.5.0/all-1.5.0.pom
+2017-10-20 22:53:31,672 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/javax/activation/activation/1.1/activation-1.1.pom
+2017-10-20 22:53:31,810 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/javax/activation/activation/1.1/activation-1.1.pom
+2017-10-20 22:53:31,906 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/druid/1.0.31/druid-1.0.31.pom
+2017-10-20 22:53:32,066 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/druid/1.0.31/druid-1.0.31.pom
+2017-10-20 22:53:32,798 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.pom
+2017-10-20 22:53:32,963 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.pom
+2017-10-20 22:53:33,090 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.pom
+2017-10-20 22:53:33,277 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.pom
+2017-10-20 22:53:34,007 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-pool/commons-pool/1.3/commons-pool-1.3.pom
+2017-10-20 22:53:34,242 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-pool/commons-pool/1.3/commons-pool-1.3.pom
+2017-10-20 22:53:34,583 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.pom
+2017-10-20 22:53:34,852 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.pom
+2017-10-20 22:53:34,997 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+2017-10-20 22:53:35,173 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+2017-10-20 22:53:35,346 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+2017-10-20 22:53:35,601 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+2017-10-20 22:53:36,266 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.pom
+2017-10-20 22:53:36,505 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.pom
+2017-10-20 22:53:37,162 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+2017-10-20 22:53:39,695 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+2017-10-20 22:53:39,938 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+2017-10-20 22:53:40,196 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+2017-10-20 22:53:40,953 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom
+2017-10-20 22:53:41,308 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom
+2017-10-20 22:53:41,467 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/32/commons-parent-32.pom
+2017-10-20 22:53:41,793 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/32/commons-parent-32.pom
+2017-10-20 22:53:41,964 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.2/commons-io-2.2.pom
+2017-10-20 22:53:42,582 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.2/commons-io-2.2.pom
+2017-10-20 22:53:42,737 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/24/commons-parent-24.pom
+2017-10-20 22:53:43,018 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/24/commons-parent-24.pom
+2017-10-20 22:53:43,156 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.4/commons-io-2.4.pom
+2017-10-20 22:53:43,412 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.4/commons-io-2.4.pom
+2017-10-20 22:53:43,557 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2017-10-20 22:53:44,390 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2017-10-20 22:53:44,518 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+2017-10-20 22:53:44,716 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+2017-10-20 22:53:44,920 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.jar
+2017-10-20 22:53:45,724 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-core/4.0.2.RELEASE/spring-core-4.0.2.RELEASE.jar
+2017-10-20 22:53:45,882 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar
+2017-10-20 22:53:46,802 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-web/4.0.2.RELEASE/spring-web-4.0.2.RELEASE.jar
+2017-10-20 22:53:46,882 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.jar
+2017-10-20 22:53:47,481 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-beans/4.0.2.RELEASE/spring-beans-4.0.2.RELEASE.jar
+2017-10-20 22:53:47,562 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar
+2017-10-20 22:53:48,347 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context/4.0.2.RELEASE/spring-context-4.0.2.RELEASE.jar
+2017-10-20 22:53:48,458 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-oxm/4.0.2.RELEASE/spring-oxm-4.0.2.RELEASE.jar
+2017-10-20 22:53:50,583 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-oxm/4.0.2.RELEASE/spring-oxm-4.0.2.RELEASE.jar
+2017-10-20 22:53:50,723 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.jar
+2017-10-20 22:53:51,245 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-tx/4.0.2.RELEASE/spring-tx-4.0.2.RELEASE.jar
+2017-10-20 22:53:51,323 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar
+2017-10-20 22:53:51,876 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar
+2017-10-20 22:53:51,952 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar
+2017-10-20 22:53:52,401 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar
+2017-10-20 22:53:52,479 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.jar
+2017-10-20 22:53:52,920 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-expression/4.0.2.RELEASE/spring-expression-4.0.2.RELEASE.jar
+2017-10-20 22:53:52,998 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.jar
+2017-10-20 22:53:53,317 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-aop/4.0.2.RELEASE/spring-aop-4.0.2.RELEASE.jar
+2017-10-20 22:53:53,428 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context-support/4.0.2.RELEASE/spring-context-support-4.0.2.RELEASE.jar
+2017-10-20 22:53:53,637 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-context-support/4.0.2.RELEASE/spring-context-support-4.0.2.RELEASE.jar
+2017-10-20 22:53:53,713 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-test/4.0.2.RELEASE/spring-test-4.0.2.RELEASE.jar
+2017-10-20 22:53:54,060 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/springframework/spring-test/4.0.2.RELEASE/spring-test-4.0.2.RELEASE.jar
+2017-10-20 22:53:54,191 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.jar
+2017-10-20 22:53:54,892 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/mybatis/mybatis/3.2.6/mybatis-3.2.6.jar
+2017-10-20 22:53:55,043 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/javax/javaee-api/7.0/javaee-api-7.0.jar
+2017-10-20 22:53:56,106 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/javax/javaee-api/7.0/javaee-api-7.0.jar
+2017-10-20 22:53:56,189 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+2017-10-20 22:53:56,559 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+2017-10-20 22:53:56,630 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/javax/activation/activation/1.1/activation-1.1.jar
+2017-10-20 22:53:56,813 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/javax/activation/activation/1.1/activation-1.1.jar
+2017-10-20 22:53:56,910 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/druid/1.0.31/druid-1.0.31.jar
+2017-10-20 22:53:58,344 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/druid/1.0.31/druid-1.0.31.jar
+2017-10-20 22:53:58,419 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar
+2017-10-20 22:53:59,221 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar
+2017-10-20 22:53:59,302 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar
+2017-10-20 22:53:59,513 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar
+2017-10-20 22:53:59,588 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-pool/commons-pool/1.3/commons-pool-1.3.jar
+2017-10-20 22:53:59,765 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-pool/commons-pool/1.3/commons-pool-1.3.jar
+2017-10-20 22:53:59,912 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.jar
+2017-10-20 22:54:00,205 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/alibaba/fastjson/1.1.41/fastjson-1.1.41.jar
+2017-10-20 22:54:00,281 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2017-10-20 22:54:00,621 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+2017-10-20 22:54:00,699 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar
+2017-10-20 22:54:00,892 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar
+2017-10-20 22:54:00,978 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+2017-10-20 22:54:01,765 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+2017-10-20 22:54:01,861 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+2017-10-20 22:54:02,102 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+2017-10-20 22:54:02,192 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar
+2017-10-20 22:54:02,359 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar
+2017-10-20 22:54:02,429 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.4/commons-io-2.4.jar
+2017-10-20 22:54:02,683 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.4/commons-io-2.4.jar
+2017-10-20 22:54:02,755 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+2017-10-20 22:54:03,518 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+2017-10-20 22:54:13,396 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:54:13,405 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 22:54:13,407 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:54:13,412 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 22:54:15,472 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:54:15,479 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 22:54:15,480 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 22:54:15,486 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:00:55,929 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:00:55,936 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:00:55,960 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:00:55,986 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:08:13,353 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:08:13,363 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:08:13,366 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:08:13,371 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:09:00,729 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:09:00,737 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:09:00,739 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:09:00,747 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:10:45,212 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:10:45,231 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:10:45,235 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:10:45,245 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:11:07,955 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:11:07,965 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:11:07,970 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:11:07,977 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:17:05,043 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 23:17:05,480 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:05,489 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:17:05,496 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:05,509 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:17:16,790 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 23:17:17,102 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:17,110 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:17:17,114 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:17,120 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:17:21,960 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 23:17:22,314 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:22,322 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:17:22,324 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:22,330 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:17:46,951 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 23:17:47,237 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:47,250 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:17:47,255 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:47,265 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:17:53,057 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ugwang:ug:0.0.1-SNAPSHOT @ D:\挑战杯\优逛\UG\ug\pom.xml.
+2017-10-20 23:17:53,359 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:53,366 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:17:53,367 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:17:53,373 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:20:52,265 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:20:52,272 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:20:52,275 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:20:52,282 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:21:54,634 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:21:54,647 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:21:54,652 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:21:54,663 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:23:34,938 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:23:34,950 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:23:34,954 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:23:34,961 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:24:28,305 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:24:28,313 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:24:28,317 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:24:28,324 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:25:09,683 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:25:09,688 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:25:09,691 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:25:09,696 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:26:00,010 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:26:00,033 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:26:00,081 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:26:00,099 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:31:28,864 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:31:28,872 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:31:28,876 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:31:28,884 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:32:07,802 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:32:07,813 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:32:07,814 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:32:07,824 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:32:30,350 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:32:30,355 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:32:30,357 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:32:30,362 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:33:47,716 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:33:47,728 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:33:47,730 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:33:47,744 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:34:07,596 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:34:07,607 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:34:07,609 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:34:07,616 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:34:22,071 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:34:22,080 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:34:22,082 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:34:22,091 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:35:16,996 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:17,006 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:35:17,008 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:17,018 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:35:23,780 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:23,809 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:35:23,811 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:23,824 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:35:28,475 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:28,480 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:35:28,483 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:28,491 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:35:31,997 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:32,007 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:35:32,008 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:32,017 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:35:34,264 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:34,269 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:35:34,270 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:34,275 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:35:47,248 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:47,263 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:35:47,268 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:35:47,281 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:36:20,573 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:36:20,583 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-20 23:36:20,584 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:36:20,592 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:36:25,825 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:36:25,831 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:36:25,835 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:36:25,842 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:36:47,601 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:36:47,606 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:36:47,608 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:36:47,613 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
+2017-10-20 23:37:03,313 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:37:03,318 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-10-20 23:37:03,320 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-20 23:37:03,325 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\挑战杯\优逛\UG\ug\src\test\resources
