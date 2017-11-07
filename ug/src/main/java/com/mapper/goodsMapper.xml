@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.goodsMapper">
+  <resultMap id="BaseResultMap" type="com.entity.goods">
+    <id column="goodsId" jdbcType="INTEGER" property="goodsid" />
+    <result column="goodsName" jdbcType="VARCHAR" property="goodsname" />
+    <result column="goodsType" jdbcType="VARCHAR" property="goodstype" />
+    <result column="goodsPrice" jdbcType="INTEGER" property="goodsprice" />
+    <result column="goodsPrictureId" jdbcType="INTEGER" property="goodsprictureid" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.entity.goodsWithBLOBs">
+    <result column="goodsState" jdbcType="LONGVARCHAR" property="goodsstate" />
+    <result column="thumpUserIds" jdbcType="LONGVARCHAR" property="thumpuserids" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    goodsId, goodsName, goodsType, goodsPrice, goodsPrictureId, userId
+  </sql>
+  <sql id="Blob_Column_List">
+    goodsState, thumpUserIds
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from goods
+    where goodsId = #{goodsid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from goods
+    where goodsId = #{goodsid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.entity.goodsWithBLOBs">
+    insert into goods (goodsId, goodsName, goodsType, 
+      goodsPrice, goodsPrictureId, userId, 
+      goodsState, thumpUserIds)
+    values (#{goodsid,jdbcType=INTEGER}, #{goodsname,jdbcType=VARCHAR}, #{goodstype,jdbcType=VARCHAR}, 
+      #{goodsprice,jdbcType=INTEGER}, #{goodsprictureid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, 
+      #{goodsstate,jdbcType=LONGVARCHAR}, #{thumpuserids,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.entity.goodsWithBLOBs">
+    insert into goods
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="goodsid != null">
+        goodsId,
+      </if>
+      <if test="goodsname != null">
+        goodsName,
+      </if>
+      <if test="goodstype != null">
+        goodsType,
+      </if>
+      <if test="goodsprice != null">
+        goodsPrice,
+      </if>
+      <if test="goodsprictureid != null">
+        goodsPrictureId,
+      </if>
+      <if test="userid != null">
+        userId,
+      </if>
+      <if test="goodsstate != null">
+        goodsState,
+      </if>
+      <if test="thumpuserids != null">
+        thumpUserIds,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="goodsid != null">
+        #{goodsid,jdbcType=INTEGER},
+      </if>
+      <if test="goodsname != null">
+        #{goodsname,jdbcType=VARCHAR},
+      </if>
+      <if test="goodstype != null">
+        #{goodstype,jdbcType=VARCHAR},
+      </if>
+      <if test="goodsprice != null">
+        #{goodsprice,jdbcType=INTEGER},
+      </if>
+      <if test="goodsprictureid != null">
+        #{goodsprictureid,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null">
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="goodsstate != null">
+        #{goodsstate,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="thumpuserids != null">
+        #{thumpuserids,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.entity.goodsWithBLOBs">
+    update goods
+    <set>
+      <if test="goodsname != null">
+        goodsName = #{goodsname,jdbcType=VARCHAR},
+      </if>
+      <if test="goodstype != null">
+        goodsType = #{goodstype,jdbcType=VARCHAR},
+      </if>
+      <if test="goodsprice != null">
+        goodsPrice = #{goodsprice,jdbcType=INTEGER},
+      </if>
+      <if test="goodsprictureid != null">
+        goodsPrictureId = #{goodsprictureid,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null">
+        userId = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="goodsstate != null">
+        goodsState = #{goodsstate,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="thumpuserids != null">
+        thumpUserIds = #{thumpuserids,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where goodsId = #{goodsid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.entity.goodsWithBLOBs">
+    update goods
+    set goodsName = #{goodsname,jdbcType=VARCHAR},
+      goodsType = #{goodstype,jdbcType=VARCHAR},
+      goodsPrice = #{goodsprice,jdbcType=INTEGER},
+      goodsPrictureId = #{goodsprictureid,jdbcType=INTEGER},
+      userId = #{userid,jdbcType=INTEGER},
+      goodsState = #{goodsstate,jdbcType=LONGVARCHAR},
+      thumpUserIds = #{thumpuserids,jdbcType=LONGVARCHAR}
+    where goodsId = #{goodsid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.entity.goods">
+    update goods
+    set goodsName = #{goodsname,jdbcType=VARCHAR},
+      goodsType = #{goodstype,jdbcType=VARCHAR},
+      goodsPrice = #{goodsprice,jdbcType=INTEGER},
+      goodsPrictureId = #{goodsprictureid,jdbcType=INTEGER},
+      userId = #{userid,jdbcType=INTEGER}
+    where goodsId = #{goodsid,jdbcType=INTEGER}
+  </update>
+</mapper>

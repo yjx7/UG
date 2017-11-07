@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将类型“com.service.userService”重命名为“UserService”&#x0D;&#x0A;－ 原始项目：“ug”&#x0D;&#x0A;－ 原始元素：“com.service.userService”&#x0D;&#x0A;－ 重命名的元素：“com.service.UserService”&#x0D;&#x0A;－ 更新对已重构元素的引用&#x0D;&#x0A;－ 更新注释和字符串中出现的文本" description="重命名类型“userService”" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.service{userService.java[userService" matchStrategy="1" name="UserService" qualified="false" references="true" similarDeclarations="false" stamp="1509278987772" textual="false" version="1.0"/>
+</session>

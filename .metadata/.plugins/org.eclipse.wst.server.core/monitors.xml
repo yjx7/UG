@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<monitors>
+  <monitor port="81" portId="0" serverId="Tomcat v7.0 Server @ localhost" started="false"/>
+  <monitor port="8006" portId="server" serverId="Tomcat v7.0 Server @ localhost" started="false"/>
+  <monitor port="8010" portId="1" serverId="Tomcat v7.0 Server @ localhost" started="false"/>
+</monitors>
