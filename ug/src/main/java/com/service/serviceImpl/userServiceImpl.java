@@ -15,5 +15,8 @@ public class userServiceImpl implements UserService {
 		    public user getUserById(int userId) {  
 		        return this.userMapper.selectByPrimaryKey(userId);
 		    }
+		    @Override
+			public void addUser(user user) {
+				this.userMapper.insert(user); 			}
 
 }

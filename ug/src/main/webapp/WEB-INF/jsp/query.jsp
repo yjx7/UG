@@ -2,15 +2,15 @@
 <html>
 <head>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" %>
-
+    pageEncoding="UTF-8"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>test</title>
 </head>
 <body>
-this is showUser
-姓名：${session.user.userName } 
-姓名：${session.user} 
 
+    <form id="showuser" action="showUser" method="post">     
+        userID: <input id="id" name="userId" /><br/>     
+        <input type="submit" value="quary"/>     
+    </form> 
 </body>
 </html>
