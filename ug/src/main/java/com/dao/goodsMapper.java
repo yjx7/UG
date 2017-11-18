@@ -17,4 +17,6 @@ public interface goodsMapper {
     int updateByPrimaryKeyWithBLOBs(goodsWithBLOBs record);
 
     int updateByPrimaryKey(goods record);
+
+    goodsWithBLOBs selectByType(String type);
 }

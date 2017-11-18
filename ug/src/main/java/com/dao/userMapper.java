@@ -16,4 +16,6 @@ public interface userMapper {
     int updateByPrimaryKeyWithBLOBs(user record);
 
     int updateByPrimaryKey(user record);
+
+	user selectByPhone(String phone);
 }

@@ -1,4 +1,4 @@
-package org.apache.jsp.WEB_002dINF.jsp;
+package org.apache.jsp;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -61,7 +61,7 @@ public final class regist_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<title>test</title>\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
-      out.write("    <form id=\"regist\" action=\"/user/regist\" method=\"post\">     \r\n");
+      out.write("    <form id=\"regist\" action=\"user/regist\" method=\"get\">     \r\n");
       out.write("        userphone: <input id=\"phone\" name=\"phone\" /><br/>     \r\n");
       out.write("        password: <input id=\"password\" name=\"password\" /><br/>    \r\n");
       out.write("        <input type=\"submit\" value=\"添加新用户\"/>     \r\n");

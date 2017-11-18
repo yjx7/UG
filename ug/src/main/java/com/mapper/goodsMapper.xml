@@ -141,4 +141,12 @@
       userId = #{userid,jdbcType=INTEGER}
     where goodsId = #{goodsid,jdbcType=INTEGER}
   </update>
+   <select id="selectByType" parameterType="java.lang.String" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from goods
+    where goodsType = #{goodstype,jdbcType=String}
+  </select><!-- 如何查找对象的数组集合 ！-->
 </mapper>
