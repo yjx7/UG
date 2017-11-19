@@ -9,8 +9,8 @@
 </head>
 <body>
 this is showUser
-姓名：${session.user.userName } 
-姓名：${session.user} 
+姓名：<%=request.getAttribute("user")%>
+姓名：${user.username} 
 
 </body>
 </html>

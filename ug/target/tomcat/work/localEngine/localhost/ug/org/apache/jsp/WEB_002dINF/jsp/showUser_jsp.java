@@ -61,10 +61,10 @@ public final class showUser_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<body>\r\n");
       out.write("this is showUser\r\n");
       out.write("姓名：");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${session.user.getUsername }", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-      out.write(" \r\n");
+      out.print(request.getAttribute("user"));
+      out.write("\r\n");
       out.write("姓名：");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${session.user}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${user.username}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
       out.write(" \r\n");
       out.write("\r\n");
       out.write("</body>\r\n");

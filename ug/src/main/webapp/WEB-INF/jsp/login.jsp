@@ -10,10 +10,10 @@
 <title>test</title>
 </head>
 <body>
-    <form id="regist" action="/user/regist" method="post">     
-        userphone: <input id="phone" name="phone" /><br/>     
+    <form id="addUser" action="login" method="post">     
+        userName: <input id="name" name="name" /><br/>     
         password: <input id="password" name="password" /><br/>    
-        <input type="submit" value="添加新用户"/>     
+        <input type="submit" value="登录"/>     
     </form> 
 </body>
 </html>

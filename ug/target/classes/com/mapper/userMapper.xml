@@ -168,4 +168,12 @@
       userState = #{userstate,jdbcType=INTEGER}
     where userId = #{userid,jdbcType=INTEGER}
   </update>
+    <select id="selectByPhone" parameterType="java.lang.String" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from user
+    where phonenumber = #{phonenumber,jdbcType=VARCHAR}
+  </select>
 </mapper>

@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.dto.Result;
 import com.entity.user;
 import com.service.UserService;
 
@@ -29,24 +30,31 @@ public String toIndex(HttpServletRequest request,Model model)
 	return "showUser";
 	
 }
-@RequestMapping("/addUser")    
-public String addUser(HttpServletRequest request,Model model){    
-    user user = new user();    
-    user.setUsername(String.valueOf(request.getParameter("name")));    
-    user.setPassword(String.valueOf(request.getParameter("password")));    
-    userService.addUser(user);    
-    return "query";    
-}
-@RequestMapping("/regist")
-public String regist(HttpServletRequest request,Model model){       
-    return "regist";    
-}
-@RequestMapping("c")
+
+
+@RequestMapping("regist")
 @ResponseBody
-public HashMap d()
-{
-    HashMap s = new HashMap();
-    s.put("aaa", "ÄãºÃ°¡");
-    return s;
+public  Result<user>  regist(HttpServletRequest request){
+    user user = new user();  
+    Result<user> result =new Result<user>();
+    user.setUsername(String.valueOf(request.getParameter("phone"))); 
+    user.setPhonenumber(String.valueOf(request.getParameter("phone")));         
+    user.setPassword(String.valueOf(request.getParameter("password")));    
+    result =userService.regist(user);   
+    request.getSession().setAttribute("userId",result.getData().getUserid() );
+    return result;    
 }
+
+@RequestMapping("login")
+@ResponseBody
+public  Result<user>  login(HttpServletRequest request){
+    user user = new user();  
+    Result<user> result =new Result<user>();
+    user.setPhonenumber(String.valueOf(request.getParameter("phone")));         
+    user.setPassword(String.valueOf(request.getParameter("password")));    
+    result =userService.login(user);    
+    return result;    
+}
+
+
 }
